@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="products-container">
+            <div class="products-filter">
+                <input type="text" name="search" placeholder="Search..."/>
+                <div class="products-filter__content">
+                    <h2>Categories</h2>
+                    <div class="product-categories"></div>
+                </div>
+                <div class="price-range">
+                    <h2>Maximum Price</h2>
+                    <input type="range" value="" step="1" max="200"  name="priceRange" />&nbsp;<span class="range-text">$<span class="range-price">200</span></span>
+                </div>
+            </div>
+            <div class="products-list">
+                <div class="products-list__content">
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src='script.js' type="module"></script>
+</body>
+</html>
